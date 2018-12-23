@@ -1,0 +1,69 @@
+.main_header_area{
+    height: 15vh;
+    padding-top: 3vh;
+}
+
+.cart_quantity{
+    background-color: #FFCC00;
+}
+
+.help-line a{
+    background-color: #FFCC00;
+}
+
+.help-line a:hover{
+    background-color: #3C3C3B;
+}
+
+.padding_logo{
+    padding-left: 0;
+}
+
+.welcome_slides.owl-carousel .owl-dot.active{
+    background-color:#FFCC00;
+    border-color:#FFCC00;
+}
+
+.karl-btn:hover, .karl-btn:focus{
+    background-color:#FFCC00;
+    border-color:#FFCC00;
+}
+
+.subscribtion_form .submit:hover{
+     background-color:#FFCC00;
+    border-color:#FFCC00;
+}
+
+#scrollUp{
+     background-color:#3C3C3B;
+}
+
+.height-800{
+    height:90vh !important;
+}
+
+.section_padding_20 {
+    padding: 20px 0;
+}
+
+.menu-content > li > a:before{
+    background-color:#FFCC00;
+    border-color:#FFCC00;
+}
+
+.product-description .add-to-cart-btn{
+    color: #FFCC00;
+}
+
+.pagination-sm .page-link:hover, .pagination-sm .page-item.active .page-link, .pagination-sm .page-link:focus{
+    color:#3C3C3B;
+    border-color:#3C3C3B;
+}
+
+.breadcumb_area{
+     padding-top: 20px;
+}
+
+.cart-list li .btn-checkout, .single_product_desc .cart .cart-submit, .karl-checkout-btn{
+     background-color:#FFCC00;
+}
