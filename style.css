@@ -65,5 +65,96 @@
 }
 
 .cart-list li .btn-checkout, .single_product_desc .cart .cart-submit, .karl-checkout-btn{
-     background-color:#FFCC00;
+     background-color:#3C3C3B;
+}
+
+.quickview_body .cart-submit{
+    background-color: #3C3C3B;
+}
+
+#login button.close{
+    box-shadow:none;
+  position:absolute;
+    right:15px;
+    text-align:right;
+    top:10px;
+    z-index:9;
+    
+}
+
+#esq_pass{
+    font-size: 0.6rem;
+}
+
+.mrg{
+    margin: 7% 0;
+    padding:0;
+}
+
+.mrg_pass{
+   padding:0;
+}
+
+.mrg, .mrg_pass label{
+    font-size: 0.8rem;
+}
+
+.login-submit{
+    background-color: #FFCC00;
+    border: medium none;
+    color:#fff;
+    cursor:pointer;
+    font-size:13px;
+    height:35px;
+    margin-left:15px;
+    width:120px;
+    transition-duration:500ms;
+    margin: 7% 0;
+}
+
+.registar-submit{
+    background-color: #3C3C3B;
+    border: medium none;
+    color:#fff;
+    cursor:pointer;
+    font-size:13px;
+    height:35px;
+    margin-left:15px;
+    width:120px;
+    transition-duration:500ms;
+    margin: 7% 0;
+}
+
+.borderight{
+    padding-right:8%;
+   border-right: 1px solid lightgrey; 
+}
+
+#login_main{
+    margin-left: 25%;
+}
+
+#login_main:hover, #esq_pass:hover{
+ text-decoration: underline;
+}
+
+.nav-link:hover{
+    color:grey;
+}
+
+#pesquisar{
+   font-size:0.8rem;
+}
+
+.single_product_desc .widget.size .widget-desc a:hover, .single_product_desc .widget.size .widget-desc a:focus{
+    background-color:#FFCC00;
+    border: 2px solid #FFCC00;
+}
+
+.ml{
+    margin-left: 21%;
+}
+
+.footer_social_area > a:hover{
+    color: #FFCC00;
 }

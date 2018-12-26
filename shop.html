@@ -24,8 +24,7 @@
 </head>
 
 <body>
-<div id="wrapper">
-
+ <div id="wrapper">
         <!-- ****** Header Area Start ****** -->
         <header class="header_area">
             <!-- Top Header Area Start -->
@@ -33,46 +32,123 @@
                 <div class="container h-100">
                     <div class="row h-100 align-items-center justify-content-end">
 
-                        <div class="col-12 col-lg-8">
-                            <div class="top_single_area d-flex align-items-center">
-                                <!-- Logo Area -->
-                                <div class="top_logo">
-                                    <a href="#"><img src="img/core-img/logo.png" alt=""></a>
-                                </div>
-                                <!-- Cart & Menu Area -->
-                                <div class="header-cart-menu d-flex align-items-center ml-auto">
-                                    <!-- Cart Area -->
-                                    <div class="cart">
-                                        <a href="#" id="header-cart-btn" target="_blank"><span class="cart_quantity">2</span> <i class="ti-bag"></i></a>
-                                        <!-- Cart List Area Start -->
-                                        <ul class="cart-list">
-                                            <li>
-                                                <a href="#" class="image"><img src="img/product-img/1.jpg" class="cart-thumb" alt=""></a>
-                                                <div class="cart-item-desc">
-                                                    <h6><a href="#">ASO Smoke</a></h6>
-                                                    <p>1x - <span class="price">00.00€</span></p>
-                                                </div>
-                                                <span class="dropdown-product-remove"><i class="icon-cross"></i></span>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="image"><img src="img/product-img/1.jpg" class="cart-thumb" alt=""></a>
-                                                <div class="cart-item-desc">
-                                                    <h6><a href="#">ASO Smoke</a></h6>
-                                                    <p>1x - <span class="price">00.00€</span></p>
-                                                </div>
-                                                <span class="dropdown-product-remove"><i class="icon-cross"></i></span>
-                                            </li>
-                                            <li class="total">
-                                                <span class="pull-right">Total: 00.00€</span>
-                                                <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
-                                                <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
-                                            </li>
-                                        </ul>
+                        <div class="col-12">
+                            <div class="col-12">
+                                <div class="top_single_area d-flex align-items-center">
+                                    <div class="search-container">
+                                        <form action="#" method="post">
+                                            <input type="text" placeholder="Pesquisar.." name="search" class="form-control" id="pesquisar" value="">
+                                        </form>
                                     </div>
+
+                                    <!-- Logo Area -->
+                                    <div class="top_logo d-flex align-items-center ml">
+                                        <a href="#"><img src="img/core-img/logo.png" alt=""></a>
+                                    </div>
+                                    <!-- Cart & Menu Area -->
+                                    <div class="header-cart-menu d-flex align-items-center ml-auto">
+                                        <!-- Cart Area -->
+                                        <div class="cart">
+                                            <a href="#" id="header-cart-btn" target="_blank"><span class="cart_quantity">2</span> <i class="ti-bag"></i></a>
+                                            <!-- Cart List Area Start -->
+                                            <ul class="cart-list">
+                                                <li>
+                                                    <a href="#" class="image"><img src="img/product-img/1.jpg" class="cart-thumb" alt=""></a>
+                                                    <div class="cart-item-desc">
+                                                        <h6><a href="#">ASO Smoke</a></h6>
+                                                        <p>1x - <span class="price">00.00€</span></p>
+                                                    </div>
+                                                    <span class="dropdown-product-remove"><i class="icon-cross"></i></span>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="image"><img src="img/product-img/1.jpg" class="cart-thumb" alt=""></a>
+                                                    <div class="cart-item-desc">
+                                                        <h6><a href="#">ASO Smoke</a></h6>
+                                                        <p>1x - <span class="price">00.00€</span></p>
+                                                    </div>
+                                                    <span class="dropdown-product-remove"><i class="icon-cross"></i></span>
+                                                </li>
+                                                <li class="total">
+                                                    <span class="pull-right">Total: 00.00€</span>
+                                                    <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
+                                                    <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- ****** LOGIN Area Start ****** -->
+                                    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="quickview" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <button type="button" class="close btn" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                                                <div class="modal-body">
+                                                    <div class="quickview_body">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-12 col-lg-6">
+                                                                    <div class="quickview_pro_des borderight">
+                                                                        <h4 class="title">Registar</h4>
+
+                                                                        <form action="#" method="post">
+                                                                            <div class="col-12 mrg">
+                                                                                <label for="nome">Nome</label>
+                                                                                <input type="text" class="form-control" id="nome" value="">
+                                                                            </div>
+                                                                            <div class="col-12 mrg">
+                                                                                <label for="apelido">Apelido</label>
+                                                                                <input type="text" class="form-control" id="Apelido" value="">
+                                                                            </div>
+                                                                            <div class="col-12 mrg">
+                                                                                <label for="email">Email</label>
+                                                                                <input type="text" class="form-control" id="email" value="">
+                                                                            </div>
+
+                                                                            <div class="col-12 mrg_pass">
+                                                                                <label for="pass">Palavra-passe</label>
+                                                                                <input type="text" class="form-control" id="pass" value="">
+                                                                            </div>
+                                                                            <button type="submit" name="login_btn" value="5" class="registar-submit">Registar</button>
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-lg-6">
+                                                                    <div class="quickview_pro_des">
+                                                                        <h4 class="title">Login</h4>
+
+                                                                        <form action="#" method="post">
+
+                                                                            <div class="col-12 mrg">
+                                                                                <label for="email">Email</label>
+                                                                                <input type="text" class="form-control" id="email" value="">
+                                                                            </div>
+
+                                                                            <div class="col-12 mrg_pass">
+                                                                                <label for="pass">Palavra-passe</label>
+                                                                                <input type="text" class="form-control" id="pass" value="">
+                                                                                <a href="#" id="esq_pass">Esqueceu-se da sua Palavra-passe?</a>
+                                                                            </div>
+                                                                            <button type="submit" name="login_btn" value="5" class="login-submit">Login</button>
+                                                                        </form>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ****** LOGIN Area End ****** -->
+                                    <div class="">
+                                        <a href="#" data-toggle="modal" data-target="#login" id="login_main">Login</a></div>
+
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -84,7 +160,7 @@
                         <div class="col-12 d-md-flex justify-content-between">
                             <!-- Header Social Area -->
                             <div class="help-line">
-                                <a href="tel:+346573556778"><i class="ti-headphone-alt"></i> lobosepi@gmail.com </a>
+                                <a href="tel:+346573556778"><i class="ti-headphone-alt"></i> comercial@lobos.pt</a>
                             </div>
                             <!-- Menu Area -->
                             <div class="main-menu-area">
@@ -97,7 +173,7 @@
                                             <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
                                             <li class="nav-item"><a class="nav-link" href="#">A Empresa</a></li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Produtos</a>
+                                                <a class="nav-link" href="shop.html">Produtos</a>
                                             </li>
                                             <li class="nav-item"><a class="nav-link" href="#"> Contactos</a></li>
                                         </ul>
@@ -113,6 +189,7 @@
                 </div>
             </div>
         </header>
+
         <!-- ****** Header Area End ****** -->
 
         <!-- ****** Quick View Modal Area Start ****** -->
@@ -129,22 +206,16 @@
                                 <div class="row">
                                     <div class="col-12 col-lg-5">
                                         <div class="quickview_pro_img">
-                                            <img src="img/product-img/product-1.jpg" alt="">
+                                            <img src="img/product-img/1.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-7">
                                         <div class="quickview_pro_des">
                                             <h4 class="title">ASO Smoke</h4>
-                                            <div class="top_seller_product_rating mb-15">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </div>
-                                            <h5 class="price">$120.99 <span>$130</span></h5>
+                                         
+                                            <h5 class="price">00.00€</h5>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?</p>
-                                            <a href="#">View Full Product Details</a>
+                                            <a href="product-details.html">Ver mais</a>
                                         </div>
                                         <!-- Add to Cart Form -->
                                         <form class="cart" method="post">
@@ -156,25 +227,9 @@
                                                 <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                             </div>
                                             <button type="submit" name="addtocart" value="5" class="cart-submit">Add to cart</button>
-                                            <!-- Wishlist -->
-                                            <div class="modal_pro_wishlist">
-                                                <a href="wishlist.html" target="_blank"><i class="ti-heart"></i></a>
-                                            </div>
-                                            <!-- Compare -->
-                                            <div class="modal_pro_compare">
-                                                <a href="compare.html" target="_blank"><i class="ti-stats-up"></i></a>
-                                            </div>
+                                        
                                         </form>
-
-                                        <div class="share_wf mt-30">
-                                            <p>Share With Friend</p>
-                                            <div class="_icon">
-                                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
+      
                                     </div>
                                 </div>
                             </div>
@@ -263,34 +318,6 @@
                                         </div>
                                         <div class="range-price">Preço: 0 - 1350</div>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="widget color mb-70">
-                                <h6 class="widget-title mb-30">Filter by Color</h6>
-                                <div class="widget-desc">
-                                    <ul class="d-flex justify-content-between">
-                                        <li class="gray"><a href="#"><span>(3)</span></a></li>
-                                        <li class="red"><a href="#"><span>(25)</span></a></li>
-                                        <li class="yellow"><a href="#"><span>(112)</span></a></li>
-                                        <li class="green"><a href="#"><span>(72)</span></a></li>
-                                        <li class="teal"><a href="#"><span>(9)</span></a></li>
-                                        <li class="cyan"><a href="#"><span>(29)</span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="widget size mb-50">
-                                <h6 class="widget-title mb-30">Filter by Size</h6>
-                                <div class="widget-desc">
-                                    <ul class="d-flex justify-content-between">
-                                        <li><a href="#">XS</a></li>
-                                        <li><a href="#">S</a></li>
-                                        <li><a href="#">M</a></li>
-                                        <li><a href="#">L</a></li>
-                                        <li><a href="#">XL</a></li>
-                                        <li><a href="#">XXL</a></li>
-                                    </ul>
                                 </div>
                             </div>
 
@@ -481,7 +508,7 @@
             </div>
         </section>
 
-        <!-- ****** Footer Area Start ****** -->
+ <!-- ****** Footer Area Start ****** -->
         <footer class="footer_area">
             <div class="container">
                 <div class="row">
@@ -492,7 +519,7 @@
                                 <img src="img/core-img/logo.png" alt="">
                             </div>
                             <div class="copywrite_text d-flex align-items-center">
-                                
+
                             </div>
                         </div>
                     </div>
@@ -503,7 +530,7 @@
                                 <li><a href="#">A Empresa</a></li>
                                 <li><a href="#">Produtos</a></li>
                                 <li><a href="#">Contactos</a></li>
-                               
+
                             </ul>
                         </div>
                     </div>
@@ -512,7 +539,6 @@
                         <div class="single_footer_area">
                             <ul class="footer_widget_menu">
                                 <li><a href="#">Login</a></li>
-                                <li><a href="#">Signin</a></li>
                                 <li><a href="#">Meu Carrinho</a></li>
                             </ul>
                         </div>
@@ -521,12 +547,12 @@
                     <div class="col-12 col-lg-5">
                         <div class="single_footer_area">
                             <div class="footer_heading mb-30">
-                                <h6>Subscribe to our newsletter</h6>
+                                <h6>Subscreva a nossa newsletter</h6>
                             </div>
                             <div class="subscribtion_form">
                                 <form action="#" method="post">
-                                    <input type="email" name="mail" class="mail" placeholder="Your email here">
-                                    <button type="submit" class="submit">Subscribe</button>
+                                    <input type="email" name="mail" class="mail" placeholder="O seu email">
+                                    <button type="submit" class="submit">Subscrever</button>
                                 </form>
                             </div>
                         </div>
