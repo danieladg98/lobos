@@ -12,7 +12,7 @@
 
 <body>
  <div id="wrapper">
-  
+
          <?php
     include_once 'parts/nav.php';
   ?>
@@ -37,7 +37,7 @@
                                     <div class="col-12 col-lg-7">
                                         <div class="quickview_pro_des">
                                             <h4 class="title">ASO Smoke</h4>
-                                         
+
                                             <h5 class="price">00.00€</h5>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?</p>
                                             <a href="product-details.html">Ver mais</a>
@@ -52,9 +52,9 @@
                                                 <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                             </div>
                                             <button type="submit" name="addtocart" value="5" class="cart-submit">Adicionar</button>
-                                        
+
                                         </form>
-      
+
                                     </div>
                                 </div>
                             </div>
@@ -127,6 +127,10 @@
                                                      <li><a href="#">Essential</a></li>
                                                 </ul>
                                             </li>
+                                            <!-- Single Item -->
+                                            <li data-toggle="collapse" data-target="#bordados" class="collapsed">
+                                                <a href="#">Bordados</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -146,7 +150,7 @@
                                 </div>
                             </div>
 
-                        
+
                         </div>
                     </div>
 
@@ -336,7 +340,7 @@
   <?php
     include_once 'parts/footer.php';
   ?>
-     
+
     </div>
     <!-- /.wrapper end -->
 
