@@ -143,10 +143,17 @@
                                     <div class="collapse navbar-collapse align-items-start collapse" id="karl-navbar">
                                         <ul class="navbar-nav animated" id="nav">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
                                             <li class="nav-item"><a class="nav-link" href="#">A Empresa</a></li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="shop.php">Produtos</a>
+=======
+                                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#">A Empresa</a></li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="shop.html">Produtos</a>
+>>>>>>> parent of 4562daf... shop
 =======
                                             <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
                                             <li class="nav-item"><a class="nav-link" href="#">A Empresa</a></li>
@@ -168,7 +175,11 @@
                 </div>
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
         </header>
+=======
+        </header>
+>>>>>>> parent of 4562daf... shop
 =======
         </header>
 >>>>>>> parent of 4562daf... shop
