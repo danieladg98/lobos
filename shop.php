@@ -11,15 +11,9 @@
 </head>
 
 <body>
-<<<<<<< HEAD
     <div id="wrapper">
 
         <?php
-=======
- <div id="wrapper">
-
-         <?php
->>>>>>> dd4df5ddfa88c355a2a579206610b6588e163384
     include_once 'parts/nav.php';
   ?>
 
@@ -31,7 +25,6 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
 
-<<<<<<< HEAD
                         <div class="modal-body">
                             <div class="quickview_body">
                                 <div class="container">
@@ -40,24 +33,6 @@
                                             <div class="quickview_pro_img">
                                                 <img src="img/product-img/1.jpg" alt="">
                                             </div>
-=======
-                    <div class="modal-body">
-                        <div class="quickview_body">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 col-lg-5">
-                                        <div class="quickview_pro_img">
-                                            <img src="img/product-img/1.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-7">
-                                        <div class="quickview_pro_des">
-                                            <h4 class="title">ASO Smoke</h4>
-
-                                            <h5 class="price">00.00€</h5>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?</p>
-                                            <a href="product-details.html">Ver mais</a>
->>>>>>> dd4df5ddfa88c355a2a579206610b6588e163384
                                         </div>
                                         <div class="col-12 col-lg-7">
                                             <div class="quickview_pro_des">
@@ -67,7 +42,6 @@
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?</p>
                                                 <a href="product-details.html">Ver mais</a>
                                             </div>
-<<<<<<< HEAD
                                             <!-- Add to Cart Form -->
                                             <form class="cart" method="post">
                                                 <div class="quantity">
@@ -82,12 +56,6 @@
                                             </form>
 
                                         </div>
-=======
-                                            <button type="submit" name="addtocart" value="5" class="cart-submit">Adicionar</button>
-
-                                        </form>
-
->>>>>>> dd4df5ddfa88c355a2a579206610b6588e163384
                                     </div>
                                 </div>
                             </div>
@@ -95,7 +63,6 @@
                     </div>
                 </div>
             </div>
-<<<<<<< HEAD
             <!-- ****** Quick View Modal Area End ****** -->
 
             <section class="shop_grid_area section_padding_20">
@@ -257,78 +224,6 @@
                                                 </li>
                                             </ul>
                                         </div>
-=======
-        </div>
-        <!-- ****** Quick View Modal Area End ****** -->
-
-        <section class="shop_grid_area section_padding_20">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-4 col-lg-3">
-                        <div class="shop_sidebar_area">
-
-                            <div class="widget catagory mb-50">
-                                <!--  Side Nav  -->
-                                <div class="nav-side-menu">
-                                    <h6 class="mb-0">CATEGORIAS</h6>
-                                    <div class="menu-list">
-                                        <ul id="menu-content2" class="menu-content collapse out">
-                                            <!-- Single Item -->
-                                            <li data-toggle="collapse" data-target="#produto">
-                                                <a href="#">POR PRODUTO</a>
-                                                <ul class="sub-menu collapse show" id="produto">
-                                                    <li data-toggle="collapse" data-target="#cabeca"><a href="#">Proteção da Cabeça</a>  </li>
-                                                    <li><a href="#">Proteção das Mãos</a></li>
-                                                    <li><a href="#">Proteção dos Pés</a></li>
-                                                    <li><a href="#">Protecção do Corpo</a></li>
-                                                    <li><a href="#">Protecção do Anti-Queda</a></li>
-                                                </ul>
-                                            </li>
-                                            <!-- Single Item -->
-                                            <li data-toggle="collapse" data-target="#riscos" class="collapsed">
-                                                <a href="#">POR RISCOS</a>
-                                                <ul class="sub-menu collapse" id="riscos">
-                                                    <li><a href="#">Anti Estático</a></li>
-                                                    <li><a href="#">Calor</a></li>
-                                                    <li><a href="#">Choque</a></li>
-                                                    <li><a href="#">Corte / Perfuração</a></li>
-                                                    <li><a href="#">Frio / Intempériese</a></li>
-                                                    <li><a href="#">Biológicos químicos partículas</a></li>
-                                                    <li><a href="#">Desgaste</a></li>
-                                                     <li><a href="#">Alta Visibilidade</a></li>
-                                                </ul>
-                                            </li>
-                                            <!-- Single Item -->
-                                            <li data-toggle="collapse" data-target="#trabalhos" class="collapsed">
-                                                <a href="#">POR TRABALHOS</a>
-                                                <ul class="sub-menu collapse" id="trabalhos">
-                                                    <li><a href="#">Agricultura / Jardim</a></li>
-                                                    <li><a href="#">Obras públicas / Construção civil</a></li>
-                                                    <li><a href="#">Segunda obra / Artesão</a></li>
-                                                    <li><a href="#">Indústria pesada</a></li>
-                                                     <li><a href="#">Indústria ligeira</a></li>
-                                                    <li><a href="#">Serviços / Logística </a></li>
-                                                    <li><a href="#">Branco / Higiene </a></li>
-                                                    <li><a href="#">Petrolíferas / Gás</a></li>
-                                                    <li><a href="#">Indústria Mineira</a></li>
-                                                    <li><a href="#">Indústria Mineira</a></li>Setor Eólico
-                                                </ul>
-                                            </li>
-                                            <!-- Single Item -->
-                                            <li data-toggle="collapse" data-target="#gama" class="collapsed">
-                                                <a href="#">POR NÍVEL DE GAMA</a>
-                                                <ul class="sub-menu collapse" id="gama">
-                                                    <li><a href="#">Premium</a></li>
-                                                    <li><a href="#">Evolution</a></li>
-                                                     <li><a href="#">Essential</a></li>
-                                                </ul>
-                                            </li>
-                                            <!-- Single Item -->
-                                            <li data-toggle="collapse" data-target="#bordados" class="collapsed">
-                                                <a href="#">Bordados</a>
-                                            </li>
-                                        </ul>
->>>>>>> dd4df5ddfa88c355a2a579206610b6588e163384
                                     </div>
                                 </div>
 
@@ -347,10 +242,7 @@
                                 </div>
 
 
-<<<<<<< HEAD
                             </div>
-=======
->>>>>>> dd4df5ddfa88c355a2a579206610b6588e163384
                         </div>
 
                         <div class="col-12 col-md-8 col-lg-9">
