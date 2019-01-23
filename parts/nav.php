@@ -6,9 +6,11 @@
 
                         <div class="col-12">
                             <div class="col-12">
+                                
                                 <div class="top_single_area d-flex align-items-center">
+                                    
                                     <div class="search-container">
-                                        <form action="#" method="post">
+                                        <form action="#" method="post" id="pesquisar_form">
                                             <input type="text" placeholder="Pesquisar.." name="search" class="form-control" id="pesquisar" value="">
                                         </form>
                                     </div>

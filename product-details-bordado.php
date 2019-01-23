@@ -171,9 +171,9 @@
 
                               
                                 
-                                        <div class="card-header" role="tab" id="headingOne">
+                                        <div class="card-header" role="tab" id="title_bordados">
                                             <h6 class="mb-0">
-                                                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bordados Personalizados</a>
+                                                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >Bordados Personalizados</a>
                                             </h6>
                                         </div>
 
