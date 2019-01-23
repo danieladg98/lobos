@@ -142,11 +142,9 @@
 
                                     <div class="collapse navbar-collapse align-items-start collapse" id="karl-navbar">
                                         <ul class="navbar-nav animated" id="nav">
-                                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
                                             <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
                                             <li class="nav-item"><a class="nav-link" href="#">A Empresa</a></li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="shop.html">Produtos</a>
                                                 <a class="nav-link" href="shop.php">Produtos</a>
                                             </li>
                                             <li class="nav-item"><a class="nav-link" href="#"> Contactos</a></li>
@@ -162,4 +160,4 @@
                     </div>
                 </div>
             </div>
-        </header>        </header>
+        </header>
