@@ -2102,6 +2102,42 @@ img {
     color: #9f9f9f;
 }
 
+
+
+/*novo*/
+
 .menu-content ul .sub-menu li, .menu-content li .sub-menu li{
     padding-left:15px;
+}
+
+.single_product_desc .cart .orcamento {
+    border: 1px solid #ddd;
+    height: 40px;
+    padding: 5px 15px;
+     margin: 5px;
+    width: 200px;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
+    font-size: 14px;
+}
+
+.single_product_desc .cart .orcamento_obs {
+    border: 1px solid #ddd;
+    height: 120px;
+    padding: 5px 15px;
+     margin: 5px 5px 20px 5px;
+    width: 415px;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
+    font-size: 14px;
+}
+
+#mrg_left_send{
+    margin-left: 5px;
+}
+
+#widget-title_mrg_bottom{
+    margin-bottom: 15px;
 }

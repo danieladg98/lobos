@@ -93,22 +93,23 @@
                                 <!-- Add to Cart Form -->
                                 <form class="cart clearfix mb-50 d-flex" method="post">
                                     <div class="quantity">
-                                         <h6 class="widget-title">Pedir Orçamento</h6>
-                                        <input type="text" class="qty-text" name="nome" value="Nome">
+                                         <h6 class="widget-title" id="widget-title_mrg_bottom">Pedir Orçamento</h6>
+                                        <input type="text" class="orcamento" name="nome" placeholder="Nome">
                                        
-                                        <input type="text" class="qty-text" name="email" value="Email">
+                                        <input  type="email" class="orcamento" name="email" placeholder="Email">
                                        
-                                        <input type="text" class="qty-text" name="tel" value="Telemóvel">
+                                        <input type="text" class="orcamento" name="tel" placeholder="Telemóvel">
                                        
-                                        <input type="text" class="qty-text" value="Altura Letras (cm)" name="altura">
+                                        <input type="text" class="orcamento" placeholder="Altura Letras (cm)" name="altura">
                                        
-                                        <input type="text" class="qty-text" value="Nº de Letras" name="n_letra">
+                                        <input type="text" class="orcamento" placeholder="Nº de Letras" name="n_letra">
                                        
-                                        <input type="text" class="qty-text" value="Tipo de Letra" name="t_letra">
+                                        <input type="text" class="orcamento" placeholder="Tipo de Letra" name="t_letra">
                                         
-                                        <input type="text" class="qty-text" value="Observações" name="t_letra">
+                                        <textarea name="obs" form="usrform" class="orcamento_obs" placeholder="Observações"></textarea>
                                         
-                                        <button 
+                                        
+                                         <button type="submit" name="send" class="cart-submit" id="mrg_left_send">Enviar</button>
                                     </div>
                                    
                                 </form>
@@ -150,55 +151,7 @@
                     </div>
                 </div>
             </section>
-            <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area End >>>>>>>>>>>>>>>>>>>>>>>>> -->
-        
-        
-        
-        
-        
-        
-        <section class="single_product_details_area section_padding_0_100">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-12 col-md-6">
-                            <div class="single_product_thumb">
-                                <div id="product_details_slider" class="carousel slide" data-ride="carousel">
-
-                               <img src="img/bordado.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-md-6">
-                            <div class="single_product_desc">
-
-                              
-                                
-                                        <div class="card-header" role="tab" id="headingOne">
-                                            <h6 class="mb-0">
-                                                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bordados Personalizados</a>
-                                            </h6>
-                                        </div>
-
-                                        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <p>O bordado é o sistema de personalização mais adequado para adicionar valor às suas peças. </p>
-                                                <p>Garantimos bordados profissionais e personalizados, com a melhor qualidade ao preço justo. </p>
-                                            </div>
-                                        </div>
-                                  
-
-                              
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area End >>>>>>>>>>>>>>>>>>>>>>>>> -->
-        
-        
-        
+            <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area End >>>>>>>>>>>>>>>>>>>>>>>>> -->        
         
         
 
