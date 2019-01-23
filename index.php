@@ -12,15 +12,15 @@
 
 <body>
 
-    <?php
+  <?php
     session_start();
   ?>
 
         <div id="wrapper">
 
-            <?php
-    include_once 'parts/nav.php';
-  ?>
+          <?php
+            include_once 'parts/nav.php';
+          ?>
 
                 <!-- ****** Welcome Slides Area Start ****** -->
                 <section class="welcome_area">
@@ -86,8 +86,8 @@
                 <!-- ****** Welcome Slides Area End ****** -->
 
                 <?php
-    include_once 'parts/footer.php';
-  ?>
+                  include_once 'parts/footer.php';
+                ?>
 
         </div>
         <!-- /.wrapper end -->
