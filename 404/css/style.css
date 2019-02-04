@@ -1,0 +1,75 @@
+html, body {
+  height: 100vh;
+}
+html:before, html:after, body:before, body:after {
+  content: '';
+   background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+html {
+  background: white;
+  overflow: hidden;
+}
+html:before {
+  height: 105vmax;
+  width: 105vmax;
+  z-index: -4;
+}
+html:after {
+  height: 80vmax;
+  width: 80vmax;
+  z-index: -3;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkslategray;
+  font-family: 'Varela Round', Sans-serif;
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+body:before {
+  height: 60vmax;
+  width: 60vmax;
+  z-index: -2;
+}
+body:after {
+  height: 40vmax;
+  width: 40vmax;
+  z-index: -1;
+}
+
+.main {
+  text-align: center;
+  z-index: 5;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 95px;
+  margin: 0;
+}
+
+button {
+  background: #ffcc00;
+  padding: 0 12px;
+  border: none;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+  outline: none;
+  color: #FFF;
+  font: 400 13px/2.5 Nunito,'Varela Round', Sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+

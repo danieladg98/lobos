@@ -1,3 +1,7 @@
+#mobile{
+        display: none;
+    }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .welcome_slide_text>h2,
     .single_catagory_area h2 {
@@ -7,8 +11,6 @@
       #title_bordados{
         padding-top: 0;
     }
-    
-  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -35,6 +37,14 @@
     .single_catagory_area h2 {
         font-size: 50px;
     }
+    
+      .top_logo a img {
+        max-width: 200px;
+    }
+    
+    .top_logo.ml {
+        margin-left: 0;
+    }
     /*novo*/
     .single_product_desc .cart .orcamento {
         width: 300px;
@@ -44,6 +54,12 @@
     }
         #title_bordados{
         padding-top: 0;
+    }
+     #desktop{
+         display: none;
+    }
+    #mobile{
+       display: flex;
     }
 }
 
@@ -55,7 +71,11 @@
         left: 260px;
     }
     .top_logo a img {
-        max-width: 80px;
+        max-width: 200px;
+    }
+    
+    .top_logo.ml {
+        margin-left: 0;
     }
     .cart>a {
         font-size: 12px;
@@ -161,11 +181,23 @@
         #title_bordados{
         padding-top: 0;
     }
+     #desktop{
+         display: none;
+    }
+     #mobile{
+         padding: 5%;
+         display: flex;
+    }
+    
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .top_logo a img {
-        max-width: 120px;
+      .top_logo a img {
+        max-width: 200px;
+    }
+    
+    .top_logo.ml {
+        margin-left: 0;
     }
     
     /*novo*/

@@ -9,7 +9,7 @@
                                 
                                 <div class="top_single_area d-flex align-items-center">
                                     
-                                    <div class="search-container">
+                                    <div class="search-container" id="desktop">
                                         <form action="#" method="post" id="pesquisar_form">
                                             <input type="text" placeholder="Pesquisar.." name="search" class="form-control" id="pesquisar" value="">
                                         </form>
@@ -19,6 +19,7 @@
                                     <div class="top_logo d-flex align-items-center ml">
                                         <a href="#"><img src="img/core-img/logo.png" alt=""></a>
                                     </div>
+                                    
                                     <!-- Cart & Menu Area -->
                                     <div class="header-cart-menu d-flex align-items-center ml-auto">
                                         <!-- Cart Area -->
@@ -144,12 +145,19 @@
 
                                     <div class="collapse navbar-collapse align-items-start collapse" id="karl-navbar">
                                         <ul class="navbar-nav animated" id="nav">
+                                            
+                                             <li class="nav-item active" id="mobile">
+                                             <form action="#" method="post" id=" pesquisar_form">
+                                            <input type="text" placeholder="Pesquisar.." name="search" class="form-control" id="pesquisar" value="">
+                                        </form>
+                                            </li>
+                                            
                                             <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
                                             <li class="nav-item"><a class="nav-link" href="#">A Empresa</a></li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="shop.html">Produtos</a>
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="#"> Contactos</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#">Contactos</a></li>
                                         </ul>
                                     </div>
                                 </nav>
