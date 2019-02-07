@@ -27,18 +27,22 @@
                                 <table class="table table-responsive">
                                     <thead>
                                         <tr>
-                                          <th class="product-remove">&nbsp;</th>
-				                                  <th class="product-thumbnail">Produto</th>
-				                                  <th class="product-name">&nbsp;</th>
-				                                  <th class="product-price">Preço</th>
-                                          <th class="product-quantity">Quantidade</th>
-				                                  <th class="product-subtotal">Total</th>
+                                            <th class="product-remove">&nbsp;</th>
+                                            <th class="product-thumbnail">Produto</th>
+                                            <th class="product-name">&nbsp;</th>
+                                            <th class="product-price">Preço</th>
+                                            <th class="product-quantity">Quantidade</th>
+                                            <th class="product-subtotal">Total</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="cart_product_img d-flex align-items-center">
+                                             <td class="cross-remove">
+                                                 <a href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>
+                                            <td class="cart_product_img align-items-center">
                                                 <a href="#"><img src="img/product-img/1.jpg" alt="Product"></a>
+                                            </td>
+                                            <td class="cart_product_name align-items-center">
                                                 <h6>ASO Smoke</h6>
                                             </td>
                                             <td class="price"><span>00.00€</span></td>
