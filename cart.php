@@ -27,10 +27,12 @@
                                 <table class="table table-responsive">
                                     <thead>
                                         <tr>
-                                            <th>Produto</th>
-                                            <th>Preço</th>
-                                            <th>Quantidade</th>
-                                            <th>Total</th>
+                                          <th class="product-remove">&nbsp;</th>
+				                                  <th class="product-thumbnail">Produto</th>
+				                                  <th class="product-name">&nbsp;</th>
+				                                  <th class="product-price">Preço</th>
+                                          <th class="product-quantity">Quantidade</th>
+				                                  <th class="product-subtotal">Total</th>
                                         </tr>
                                     </thead>
                                     <tbody>
