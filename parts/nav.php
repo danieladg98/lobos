@@ -42,8 +42,8 @@
                                                 </li>
                                                 <li class="total">
                                                     <span class="pull-right">Total: 00.00€</span>
-                                                    <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
-                                                    <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
+                                                    <a href="cart.php" class="btn btn-sm btn-cart">Cart</a>
+                                                    <a href="checkout.php" class="btn btn-sm btn-checkout">Checkout</a>
                                                 </li>
                                             </ul>
                                         </div>
