@@ -81,52 +81,58 @@
                                                 <li data-toggle="collapse" data-target="#produto">
                                                     <a href="#">POR PRODUTO</a>
                                                     <ul class="sub-menu collapse show" id="produto">
-                                                        <li data-toggle="collapse" data-target="#cabeca"><a href="#">Proteção da Cabeça</a> </li>
-                                                        <li><a href="#">Proteção das Mãos</a></li>
-                                                        <li><a href="#">Proteção dos Pés</a></li>
-                                                        <li><a href="#">Protecção do Corpo</a></li>
-                                                        <li><a href="#">Protecção do Anti-Queda</a></li>
+                                                          <li data-toggle="collapse" data-target="#cabeca" class="collapsed">
+                                                            <a href="#">Protecção da Cabeça</a>
+                                                            <ul class="sub-menu collapse" id="cabeca" class="collapsed">
+                                                                <li><a href="#">Protecção Ocular</a></li>
+                                                                <li><a href="#">Protecção do Crânio</a></li>
+                                                                <li><a href="#">Protecção Auditiva</a></li>
+                                                                <li><a href="#">Protecção Respiratória</a></li>
+                                                            </ul>
+                                                        </li>
+                                                       <li data-toggle="collapse" data-target="#maos" class="collapsed">
+                                                            <a href="#">Proteção das Mãos</a>
+                                                            <ul class="sub-menu collapse" id="maos" class="collapsed">
+                                                                <li><a href="#">Luvas High-Tech</a></li>
+                                                                <li><a href="#">Luvas Sintéticas</a></li>
+                                                                <li><a href="#">Luvas de Pele</a></li>
+                                                                <li><a href="#">Luvas Têxteis</a></li>
+                                                            </ul>
+                                                        </li>
+                                                            <li data-toggle="collapse" data-target="#corpo" class="collapsed">
+                                                            <a href="#">Proteção do Corpo</a>
+                                                            <ul class="sub-menu collapse" id="corpo" class="collapsed">
+                                                                <li><a href="#">Vestuário de Trabalho</a></li>
+                                                                <li><a href="#">Vestuário Técnico</a></li>
+                                                                <li><a href="#">Vestuário Intempérie</a></li>
+                                                                  <li><a href="#">Vestuário Uso Único</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li data-toggle="collapse" data-target="#pes" class="collapsed">
+                                                            <a href="#">Proteção dos Pés</a>
+                                                            <ul class="sub-menu collapse" id="pes" class="collapsed">
+                                                                <li><a href="#">Calçado</a></li>
+                                                                <li><a href="#">Botas</a></li>
+                                                                <li><a href="#">Acessórios</a></li>
+                                                            </ul>
+                                                        </li>
+                                                             <li data-toggle="collapse" data-target="#quedas" class="collapsed">
+                                                            <a href="#">Protecção do Anti-Quedas</a>
+                                                            <ul class="sub-menu collapse" id="quedas" class="collapsed">
+                                                                <li><a href="#">Preensão do Corpo</a></li>
+                                                                <li><a href="#">Sistemas Anti-Quedas</a></li>
+                                                                <li><a href="#">Ancoragem - Manutenção no trabalho</a></li>
+                                                                <li><a href="#">Sistemas de Conexão</a></li>
+                                                        <li><a href="#">Suspensão</a></li>
+                                                         <li><a href="#">Salvamento</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    
+                                                        
                                                     </ul>
                                                 </li>
-                                                <!-- Single Item -->
-                                                <li data-toggle="collapse" data-target="#riscos" class="collapsed">
-                                                    <a href="#">POR RISCOS</a>
-                                                    <ul class="sub-menu collapse" id="riscos">
-                                                        <li><a href="#">Anti Estático</a></li>
-                                                        <li><a href="#">Calor</a></li>
-                                                        <li><a href="#">Choque</a></li>
-                                                        <li><a href="#">Corte / Perfuração</a></li>
-                                                        <li><a href="#">Frio / Intempériese</a></li>
-                                                        <li><a href="#">Biológicos químicos partículas</a></li>
-                                                        <li><a href="#">Desgaste</a></li>
-                                                        <li><a href="#">Alta Visibilidade</a></li>
-                                                    </ul>
-                                                </li>
-                                                <!-- Single Item -->
-                                                <li data-toggle="collapse" data-target="#trabalhos" class="collapsed">
-                                                    <a href="#">POR TRABALHOS</a>
-                                                    <ul class="sub-menu collapse" id="trabalhos">
-                                                        <li><a href="#">Agricultura / Jardim</a></li>
-                                                        <li><a href="#">Obras públicas / Construção civil</a></li>
-                                                        <li><a href="#">Segunda obra / Artesão</a></li>
-                                                        <li><a href="#">Indústria pesada</a></li>
-                                                        <li><a href="#">Indústria ligeira</a></li>
-                                                        <li><a href="#">Serviços / Logística </a></li>
-                                                        <li><a href="#">Branco / Higiene </a></li>
-                                                        <li><a href="#">Petrolíferas / Gás</a></li>
-                                                        <li><a href="#">Indústria Mineira</a></li>
-                                                        <li><a href="#">Indústria Mineira</a></li>Setor Eólico
-                                                    </ul>
-                                                </li>
-                                                <!-- Single Item -->
-                                                <li data-toggle="collapse" data-target="#gama" class="collapsed">
-                                                    <a href="#">POR NÍVEL DE GAMA</a>
-                                                    <ul class="sub-menu collapse" id="gama">
-                                                        <li><a href="#">Premium</a></li>
-                                                        <li><a href="#">Evolution</a></li>
-                                                        <li><a href="#">Essential</a></li>
-                                                    </ul>
-                                                </li>
+                                               
+                                              
                                                 <!-- Single Item -->
                                                 <li data-toggle="collapse" data-target="#bordados" class="collapsed">
                                                     <a href="#">BORDADOS</a>
