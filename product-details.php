@@ -89,15 +89,27 @@
                                 <h4 class="price">00.00€</h4>
 
                                 <p class="available">Disponibilidade: <span class="text-muted">Em Stock</span></p>
+                                
+                                <div class="widget size mb-30">
+                                    <h6 class="widget-title">Cor</h6>
+                                    <div class="widget-desc" id="color">
+                                        <ul>
+                                            <li><a href="#">Amarelo</a></li>
+                                            <li><a href="#">Branco</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
 
                                 <div class="widget size mb-50">
                                     <h6 class="widget-title">Tamanho</h6>
                                     <div class="widget-desc">
                                         <ul>
-                                            <li><a href="#">U</a></li>
+                                            <li><a href="#">36</a></li>
+                                            <li><a href="#">37</a></li>
                                         </ul>
                                     </div>
                                 </div>
+                                
 
                                 <!-- Add to Cart Form -->
                                 <form class="cart clearfix mb-50 d-flex" method="post">

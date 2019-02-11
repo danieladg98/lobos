@@ -1715,8 +1715,8 @@ img {
 
 .single_product_desc .widget.size .widget-desc a {
     font-size: 12px;
-    padding: 0;
-    width: 37px;
+    padding: 0 30% 0 30%;
+    width: auto;
     height: 37px;
     border: 2px solid #3a3a3a;
     font-weight: 700;
@@ -2140,4 +2140,30 @@ img {
 
 #widget-title_mrg_bottom{
     margin-bottom: 15px;
+}
+
+#color li a{
+     padding: 0 15% 0 15%;
+}
+
+.bordado_select{
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    height: 40px;
+}
+
+.contactos_social_area > a {
+    display: inline-block;
+    font-size: 23px;
+    padding: 0 10px;
+}
+
+.contactos_social_area > a:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    color: #ffcc00;
+}
+
+#title_bold a{
+    font-weight: 700 !important;
 }

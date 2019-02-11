@@ -78,61 +78,240 @@
                                         <div class="menu-list">
                                             <ul id="menu-content2" class="menu-content collapse out">
                                                 <!-- Single Item -->
-                                                <li data-toggle="collapse" data-target="#produto">
-                                                    <a href="#">POR PRODUTO</a>
-                                                    <ul class="sub-menu collapse show" id="produto">
-                                                          <li data-toggle="collapse" data-target="#cabeca" class="collapsed">
-                                                            <a href="#">Protecção da Cabeça</a>
-                                                            <ul class="sub-menu collapse" id="cabeca" class="collapsed">
-                                                                <li><a href="#">Protecção Ocular</a></li>
-                                                                <li><a href="#">Protecção do Crânio</a></li>
-                                                                <li><a href="#">Protecção Auditiva</a></li>
-                                                                <li><a href="#">Protecção Respiratória</a></li>
+                                                <li data-toggle="collapse" data-target="#cabeca">
+                                                    <a href="#">PROTECÇÃO DA CABEÇA</a>
+                                                    <ul class="sub-menu collapse show" id="cabeca">
+                                                        <li data-toggle="collapse" data-target="#ocular" class="collapsed">
+                                                            <a href="#">Protecção Ocular</a>
+                                                            <ul class="sub-menu collapse" id="ocular" class="collapsed">
+                                                                <li><a href="#">Óculos com Hastes</a></li>
+                                                                <li><a href="#">Óculos panorâmicos</a></li>
+                                                                <li><a href="#">Soldadura</a></li>
+                                                                <li><a href="#">Viseiras</a></li>
                                                             </ul>
                                                         </li>
-                                                       <li data-toggle="collapse" data-target="#maos" class="collapsed">
-                                                            <a href="#">Proteção das Mãos</a>
-                                                            <ul class="sub-menu collapse" id="maos" class="collapsed">
-                                                                <li><a href="#">Luvas High-Tech</a></li>
-                                                                <li><a href="#">Luvas Sintéticas</a></li>
-                                                                <li><a href="#">Luvas de Pele</a></li>
-                                                                <li><a href="#">Luvas Têxteis</a></li>
+                                                        <li data-toggle="collapse" data-target="#cranio" class="collapsed">
+                                                            <a href="#">Protecção do Crânio</a>
+                                                            <ul class="sub-menu collapse" id="cranio" class="collapsed">
+                                                                <li><a href="#">Capacetes de estaleiro</a></li>
+                                                                <li><a href="#">Bonés anti-choque</a></li>
+                                                                <li><a href="#">Accesórios capacetes - Marcado</a></li>
                                                             </ul>
                                                         </li>
-                                                            <li data-toggle="collapse" data-target="#corpo" class="collapsed">
-                                                            <a href="#">Proteção do Corpo</a>
-                                                            <ul class="sub-menu collapse" id="corpo" class="collapsed">
-                                                                <li><a href="#">Vestuário de Trabalho</a></li>
-                                                                <li><a href="#">Vestuário Técnico</a></li>
-                                                                <li><a href="#">Vestuário Intempérie</a></li>
-                                                                  <li><a href="#">Vestuário Uso Único</a></li>
+                                                        <li data-toggle="collapse" data-target="#aud" class="collapsed">
+                                                            <a href="#">Proteção Auditiva</a>
+                                                            <ul class="sub-menu collapse" id="aud" class="collapsed">
+                                                                <li><a href="#">Abafadores anti-ruído</a></li>
+                                                                <li><a href="#">Tampões de ouvidos descartáveis</a></li>
+                                                                <li><a href="#">Tampões de ouvidos reutilizáveis</a></li>
                                                             </ul>
                                                         </li>
-                                                        <li data-toggle="collapse" data-target="#pes" class="collapsed">
-                                                            <a href="#">Proteção dos Pés</a>
-                                                            <ul class="sub-menu collapse" id="pes" class="collapsed">
-                                                                <li><a href="#">Calçado</a></li>
-                                                                <li><a href="#">Botas</a></li>
-                                                                <li><a href="#">Acessórios</a></li>
+                                                        <li data-toggle="collapse" data-target="#resp" class="collapsed">
+                                                            <a href="#">Proteção Respiratória</a>
+                                                            <ul class="sub-menu collapse" id="resp" class="collapsed">
+                                                                <li><a href="#">Respiratória descartável</a></li>
+                                                                <li><a href="#">Respiratória reutilizável</a></li>
                                                             </ul>
                                                         </li>
-                                                             <li data-toggle="collapse" data-target="#quedas" class="collapsed">
-                                                            <a href="#">Protecção do Anti-Quedas</a>
-                                                            <ul class="sub-menu collapse" id="quedas" class="collapsed">
-                                                                <li><a href="#">Preensão do Corpo</a></li>
-                                                                <li><a href="#">Sistemas Anti-Quedas</a></li>
-                                                                <li><a href="#">Ancoragem - Manutenção no trabalho</a></li>
-                                                                <li><a href="#">Sistemas de Conexão</a></li>
-                                                        <li><a href="#">Suspensão</a></li>
-                                                         <li><a href="#">Salvamento</a></li>
-                                                            </ul>
-                                                        </li>
-                                                    
-                                                        
+
                                                     </ul>
                                                 </li>
-                                               
-                                              
+
+                                                <!-- Single Item -->
+                                                <li data-toggle="collapse" data-target="#maos" class="collapsed">
+                                                    <a href="#">PROTECÇÃO DAS MÃOS</a>
+                                                    <ul class="sub-menu collapse" id="maos">
+                                                        <li data-toggle="collapse" data-target="#luvas_high" class="collapsed">
+                                                            <a href="#">Luvas High-tech</a>
+                                                            <ul class="sub-menu collapse" id="luvas_high" class="collapsed">
+                                                                <li><a href="#">Manutenção cortante</a></li>
+                                                                <li><a href="#">Trabalhos anti estáticos</a></li>
+                                                                <li><a href="#">Trabalhos de precisão</a></li>
+                                                                <li><a href="#">Manipulação em entorno oleoso</a></li>
+                                                                <li><a href="#">Manutenção geral</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li data-toggle="collapse" data-target="#luvas_sinteticas" class="collapsed">
+                                                            <a href="#">Luvas Sintéticas</a>
+                                                            <ul class="sub-menu collapse" id="luvas_sinteticas" class="collapsed">
+                                                                <li><a href="#">Trabalhos pesados</a></li>
+                                                                <li><a href="#">Trabalhos com resistência química</a></li>
+                                                                <li><a href="#">Trabalhos em indústria</a></li>
+                                                                <li><a href="#">Uso único</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li data-toggle="collapse" data-target="#luvas_pele" class="collapsed">
+                                                            <a href="#">Luvas de pele</a>
+                                                            <ul class="sub-menu collapse" id="luvas_pele" class="collapsed">
+                                                                <li><a href="#">Manipulação em entorno húmido</a></li>
+                                                                <li><a href="#">Manutenção geral</a></li>
+                                                                <li><a href="#">Manipulação em entorno frio</a></li>
+                                                                <li><a href="#">Trabalhos de soldadura</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li data-toggle="collapse" data-target="#luvas_texteis" class="collapsed">
+                                                            <a href="#">Luvas têxteis</a>
+                                                            <ul class="sub-menu collapse" id="luvas_texteis" class="collapsed">
+                                                                <li><a href="#">Manutenção anti corte e anti calor</a></li>
+                                                                <li><a href="#">Pequenas manipulações</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <!-- Single Item -->
+                                                <li data-toggle="collapse" data-target="#corpo" class="collapsed">
+                                                    <a href="#">PROTECÇÃO DO CORPO</a>
+                                                    <ul class="sub-menu collapse" id="corpo">
+                                                        <li data-toggle="collapse" data-target="#vest_trab" class="collapsed">
+                                                            <a href="#"> Vestuário de Trabalho</a>
+                                                            <ul class="sub-menu collapse" id="vest_trab" class="collapsed">
+                                                                <li><a href="#">Bonés - Cinturões - Joelheiras</a></li>
+                                                                <li><a href="#">Lady</a></li>
+                                                                <li><a href="#">D-Mach</a></li>
+                                                                <li><a href="#">Mach 5</a></li>
+                                                                <li><a href="#">Mach 2</a></li>
+                                                                <li><a href="#">Mach 2 Corporate</a></li>
+                                                                <li><a href="#">Panostyle</a></li>
+                                                                <li><a href="#">Painter</a></li>
+                                                                <li><a href="#">Palaos</a></li>
+                                                                <li><a href="#">Mach Spring</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li data-toggle="collapse" data-target="#vest_tec" class="collapsed">
+                                                            <a href="#">Vestuário Técnico</a>
+                                                            <ul class="sub-menu collapse" id="vest_tec" class="collapsed">
+                                                                <li><a href="#">Alta visibilidade Workwear</a></li>
+                                                                <li><a href="#">Alta visibilidade Outdoor</a></li>
+                                                                <li><a href="#">Frio extremo</a></li>
+                                                                <li><a href="#">Lenhadores</a></li>
+                                                                <li><a href="#">Anti-ácidos - Anti-fogo - Anti-estático</a></li>
+                                                                <li><a href="#">Anti-fogo</a></li>
+                                                                <li><a href="#">Anti-fogo - Anti-estático</a></li>
+                                                                <li><a href="#">Aventais de protecção</a></li>
+                                                                <li><a href="#">Soldador</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li data-toggle="collapse" data-target="#vest_int" class="collapsed">
+                                                            <a href="#">Vestuário Intempérie</a>
+                                                            <ul class="sub-menu collapse" id="vest_int" class="collapsed">
+                                                                <li><a href="#">Parkas e blusões</a></li>
+                                                                <li><a href="#">Calças</a></li>
+                                                                <li><a href="#">Coletes</a></li>
+                                                                <li><a href="#">Polares - Softshell - Sweats - Camisola</a></li>
+                                                                <li><a href="#">Gorros - Bonés - Luvas</a></li>
+                                                                <li><a href="#">Polos - T-shirts - Roupa interior</a></li>
+                                                                <li><a href="#">Chuva</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li data-toggle="collapse" data-target="#vest_unico" class="collapsed">
+                                                            <a href="#">Vestuário Uso Único</a>
+                                                            <ul class="sub-menu collapse" id="vest_unico" class="collapsed">
+                                                                <li><a href="#">Fatos para protecções químicas</a></li>
+                                                                <li><a href="#">Fatos - Batas - Aventais - Toucas</a></li>
+                                                                <li><a href="#">Máscaras de higiene - Manguitos - Cobre sapatos</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+
+                                                <!-- Single Item -->
+                                                <li data-toggle="collapse" data-target="#pes" class="collapsed">
+                                                    <a href="#">PROTECÇÃO DOS PÉS</a>
+                                                    <ul class="sub-menu collapse" id="pes">
+                                                        <li data-toggle="collapse" data-target="#calcado" class="collapsed">
+                                                            <a href="#">Calçado</a>
+                                                            <ul class="sub-menu collapse" id="calcado" class="collapsed">
+                                                                <li><a href="#">Trek Work</a></li>
+                                                                <li><a href="#">Waterproof</a></li>
+                                                                <li><a href="#">X-run</a></li>
+                                                                <li><a href="#">Outdoor</a></li>
+                                                                <li><a href="#">Comfort Tech</a></li>
+                                                                <li><a href="#">Pro Tech</a></li>
+                                                                <li><a href="#">Sportswear</a></li>
+                                                                <li><a href="#">Light Walkers</a></li>
+                                                                <li><a href="#">City</a></li>
+                                                                <li><a href="#">Executive</a></li>
+                                                                <li><a href="#">Lady</a></li>
+                                                                <li><a href="#">Agro</a></li>
+                                                                <li><a href="#">4 X 4 Industry</a></li>
+                                                                <li><a href="#">X-Large Composite</a></li>
+                                                                <li><a href="#">X-Large Industry</a></li>
+                                                                <li><a href="#">Classic +</a></li>
+                                                                <li><a href="#">Classic Industry</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li data-toggle="collapse" data-target="#botas" class="collapsed">
+                                                            <a href="#">Botas</a>
+                                                            <ul class="sub-menu collapse" id="botas" class="collapsed">
+                                                                <li><a href="#">Winter Boot</a></li>
+                                                                <li><a href="#">Rain Boot</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li data-toggle="collapse" data-target="#acessorios" class="collapsed">
+                                                            <a href="#">Acessórios</a>
+                                                            <ul class="sub-menu collapse" id="acessorios" class="collapsed">
+                                                                <li><a href="#">Palmilhas - Cordões - Meias</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <!-- Single Item -->
+                                                <li data-toggle="collapse" data-target="#quedas" class="collapsed">
+                                                    <a href="#">PROTECÇÃO ANTI-QUEDAS</a>
+                                                    <ul class="sub-menu collapse" id="quedas">
+                                                        <li data-toggle="collapse" data-target="#prensao_corpo" class="collapsed">
+                                                            <a href="#"> Preensão do Corpo</a>
+                                                            <ul class="sub-menu collapse" id="prensao_corpo" class="collapsed">
+                                                                <li><a href="#">Arnês anti-quedas</a></li>
+                                                                <li><a href="#">Arnês anti-quedas e de suspensão</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li data-toggle="collapse" data-target="#sist_quedas" class="collapsed">
+                                                            <a href="#">Sistemas Anti-quedas</a>
+                                                            <ul class="sub-menu collapse" id="sist_quedas" class="collapsed">
+                                                                <li><a href="#">Cabos absorvedores de energia</a></li>
+                                                                <li><a href="#">Anti-quedas com curso de retorno automático</a></li>
+                                                                <li><a href="#">Anti-quedas sobre cordain </a></li>
+                                                                <li><a href="#">Anti-quedas sobre cabo </a></li>
+                                                                <li><a href="#">Kits </a></li>
+                                                                <li><a href="#">Acessórios e sacos de armazenamento </a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li data-toggle="collapse" data-target="#ancoragem" class="collapsed">
+                                                            <a href="#">Ancoragem - Manutenção no trabalho</a>
+                                                            <ul class="sub-menu collapse" id="ancoragem" class="collapsed">
+                                                                <li><a href="#">Sistemas de manutenção no trabalho</a></li>
+                                                                <li><a href="#">Dispositivos de ancoragem </a></li>
+                                                                <li><a href="#">Cabos </a></li>
+                                                                <li><a href="#">Spiderline II® </a></li>
+                                                                <li><a href="#">Accesórios anti-quedas </a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li data-toggle="collapse" data-target="#sist_conexao" class="collapsed">
+                                                            <a href="#">Sistemas de conexão</a>
+                                                            <ul class="sub-menu collapse" id="sist_conexao" class="collapsed">
+                                                                <li><a href="#">Conectores</a></li>
+                                                            </ul>
+                                                        </li>
+                                                            <li data-toggle="collapse" data-target="#suspensao" class="collapsed">
+                                                            <a href="#">Suspensão</a>
+                                                            <ul class="sub-menu collapse" id="suspensao" class="collapsed">
+                                                                <li><a href="#">Trabalhos sobre corda</a></li>
+                                                            </ul>
+                                                        </li>
+                                                           <li data-toggle="collapse" data-target="#salvamento" class="collapsed">
+                                                            <a href="#">Salvamento</a>
+                                                            <ul class="sub-menu collapse" id="salvamento" class="collapsed">
+                                                                <li><a href="#">Anti-queda e salvamento, espaço confinado</a></li>
+                                                                  <li><a href="#">Salvamento e evacuação</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
                                                 <!-- Single Item -->
                                                 <li data-toggle="collapse" data-target="#bordados" class="collapsed">
                                                     <a href="#">BORDADOS</a>
@@ -150,56 +329,24 @@
 
                                                         <li data-toggle="collapse" data-target="#caixas" class="collapsed">
                                                             <a href="#">Caixas de Luz</a>
-                                                            <ul class="sub-menu collapse" id="caixas" class="collapsed">
-                                                                <li><a href="#">Caixa de luz MC</a></li>
-                                                                <li><a href="#">Caixa de luz E</a></li>
-                                                                <li><a href="#">Caixa de luz A</a></li>
-                                                                <li><a href="#">Sistema NUÑO</a></li>
-                                                                <li><a href="#">Roma 170</a></li>
-                                                                <li><a href="#">Sistema NUÑO III</a></li>
-                                                                <li><a href="#">Sistema Delta 15/17</a></li>
-                                                            </ul>
                                                         </li>
                                                         <li data-toggle="collapse" data-target="#letras" class="collapsed">
-                                                            <a href="#">Letras Monobloco</a>
-                                                            <ul class="sub-menu collapse" id="letras" class="collapsed">
-                                                                <li><a href="#">Letras em Alumínio e Acrílico</a></li>
-                                                                <li><a href="#">Letras em Aço Inox</a></li>
-                                                                <li><a href="#">Letras em Latão</a></li>
-                                                                <li><a href="#">Letras em Alumínio</a></li>
-                                                                <li><a href="#">Letras em Acrílico</a></li>
-                                                            </ul>
+                                                            <a href="#">Letras Monobloco</a>                                            
                                                         </li>
                                                         <li data-toggle="collapse" data-target="#monolito" class="collapsed">
-                                                            <a href="#">Monolito</a>
-                                                            <ul class="sub-menu collapse" id="monolito" class="collapsed">
-                                                                <li><a href="#">Monolito M</a></li>
-                                                                <li><a href="#">ALFA 100</a></li>
-                                                            </ul>
+                                                            <a href="#">Monolito</a>                                                           
                                                         </li>
                                                         <li data-toggle="collapse" data-target="#totems" class="collapsed">
                                                             <a href="#">Totems</a>
-                                                            <ul class="sub-menu collapse" id="totems" class="collapsed">
-                                                                <li><a href="#">Sistema Totem</a></li>
-                                                            </ul>
                                                         </li>
                                                         <li data-toggle="collapse" data-target="#l" class="collapsed">
                                                             <a href="#">Sistema L</a>
-                                                            <ul class="sub-menu collapse" id="l" class="collapsed">
-                                                                <li><a href="#">Sistema L</a></li>
-                                                            </ul>
                                                         </li>
                                                         <li data-toggle="collapse" data-target="#t" class="collapsed">
-                                                            <a href="#">Sistema T</a>
-                                                            <ul class="sub-menu collapse" id="t" class="collapsed">
-                                                                <li><a href="#">Sistema T</a></li>
-                                                            </ul>
+                                                            <a href="#">Sistema T</a>                                                           
                                                         </li>
                                                         <li data-toggle="collapse" data-target="#cubos" class="collapsed">
                                                             <a href="#">Cubos</a>
-                                                            <ul class="sub-menu collapse" id="cubos" class="collapsed">
-                                                                <li><a href="#">Cubo</a></li>
-                                                            </ul>
                                                         </li>
                                                         <li data-toggle="collapse" data-target="#torres" class="collapsed">
                                                             <a href="#">Torres</a>
@@ -209,22 +356,12 @@
                                                         </li>
                                                         <li data-toggle="collapse" data-target="#personalizado" class="collapsed">
                                                             <a href="#">Personalizados</a>
-                                                            <ul class="sub-menu collapse" id="personalizado" class="collapsed">
-                                                                <li><a href="#">Personalizado</a></li>
-                                                            </ul>
                                                         </li>
-                                                         <li data-toggle="collapse" data-target="#planas" class="collapsed">
+                                                        <li data-toggle="collapse" data-target="#planas" class="collapsed">
                                                             <a href="#">Letras Planas</a>
-                                                            <ul class="sub-menu collapse" id="planas" class="collapsed">
-                                                                <li><a href="#">Letras Planas</a></li>
-                                                                <li><a href="#">Letras em NÉON</a></li>
-                                                            </ul>
                                                         </li>
-                                                         <li data-toggle="collapse" data-target="#monopostes" class="collapsed">
+                                                        <li data-toggle="collapse" data-target="#monopostes" class="collapsed">
                                                             <a href="#">Monopostes</a>
-                                                            <ul class="sub-menu collapse" id="monopostes" class="collapsed">
-                                                                <li><a href="#">Monoposte</a></li>
-                                                            </ul>
                                                         </li>
                                                     </ul>
                                                 </li>

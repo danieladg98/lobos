@@ -86,57 +86,32 @@
 
                                 <h4 class="title"><a href="#">ASO Smoke</a></h4>
 
-                                <h4 class="price">00.00€</h4>
-
-                                <p class="available">Disponibilidade: <span class="text-muted">Em Stock</span></p>
-
-                                <div class="widget size mb-30">
-                                    <h6 class="widget-title">Cor</h6>
-                                    <div class="widget-desc" id="color">
-                                        <ul>
-                                            <li><a href="#">Amarelo</a></li>
-                                            <li><a href="#">Branco</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-
-                                <div class="widget size mb-30">
-                                    <h6 class="widget-title">Tamanho</h6>
-                                    <div class="widget-desc">
-                                        <ul>
-                                            <li><a href="#">36</a></li>
-                                            <li><a href="#">37</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
                                 <div class="widget size mb-50">
-                                    <h6 class="widget-title">Bordado</h6>
-                                    <div class="widget-desc">
-                                        <select class="bordado_select">
-                                            <option value="a">S/ Bordado</option>
-    <option value="a">A - Frente, Lado Direito</option>
-    <option value="b">B - Frente, Lado Esquerdo</option>
-    <option value="c">C - Trás, Centro</option>
-  </select>
-                                        <br><br>
-                                         <input type="file" name="pic" accept="image/*">
-                                        
-                                    </div>
+                                    
                                 </div>
-
 
                                 <!-- Add to Cart Form -->
                                 <form class="cart clearfix mb-50 d-flex" method="post">
-                                    
                                     <div class="quantity">
-                                        <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 1 ) effect.value--;return false;"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                                        <input type="number" class="qty-text" id="qty" step="1" min="1" max="12" name="quantity" value="1">
-                                        <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                         <h6 class="widget-title" id="widget-title_mrg_bottom">Pedir Orçamento</h6>
+                                        <input type="text" class="orcamento" name="nome" placeholder="Nome">
+                                       
+                                        <input  type="email" class="orcamento" name="email" placeholder="Email">
+                                       
+                                        <input type="text" class="orcamento" name="tel" placeholder="Telemóvel">
+                                       
+                                        <input type="text" class="orcamento" placeholder="Altura (cm)" name="altura">
+                                       
+                                        <input type="text" class="orcamento" placeholder="Comprimento (cm)" name="comprimento">
+                                       
+                                        <input type="text" class="orcamento" placeholder="Quantidade" name="quant">
+                                        
+                                        <textarea name="obs" form="usrform" class="orcamento_obs" placeholder="Observações"></textarea>
+                                        
+                                        
+                                         <button type="submit" name="send" class="cart-submit" id="mrg_left_send">Enviar</button>
                                     </div>
-                                    <button type="submit" name="addtocart" value="5" class="btn cart-submit d-block">Adicionar</button>
-
+                                   
                                 </form>
 
                                 <div id="accordion" role="tablist">
@@ -176,57 +151,9 @@
                     </div>
                 </div>
             </section>
-            <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area End >>>>>>>>>>>>>>>>>>>>>>>>> -->
-
-
-
-
-
-
-            <section class="single_product_details_area section_padding_0_100">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-12 col-md-6">
-                            <div class="single_product_thumb">
-                                <div id="product_details_slider" class="carousel slide" data-ride="carousel">
-
-                                    <img src="img/bordado.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-md-6">
-                            <div class="single_product_desc">
-
-
-
-                                <div class="card-header" role="tab" id="title_bordados">
-                                    <h6 class="mb-0">
-                                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bordados Personalizados</a>
-                                    </h6>
-                                </div>
-
-                                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <p>O bordado é o sistema de personalização mais adequado para adicionar valor às suas peças. </p>
-                                        <p>Garantimos bordados profissionais e personalizados, com a melhor qualidade ao preço justo. </p>
-                                    </div>
-                                </div>
-
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area End >>>>>>>>>>>>>>>>>>>>>>>>> -->
-
-
-
-
-
+            <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area End >>>>>>>>>>>>>>>>>>>>>>>>> -->        
+        
+        
 
             <!-- ****** Quick View Modal Area Start ****** -->
             <div class="modal fade" id="quickview" tabindex="-1" role="dialog" aria-labelledby="quickview" aria-hidden="true">
