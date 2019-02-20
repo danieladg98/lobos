@@ -1,16 +1,17 @@
-#mobile{
-        display: none;
-    }
+#mobile {
+    display: none;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .welcome_slide_text>h2,
     .single_catagory_area h2 {
         font-size: 70px;
     }
-    
-      #title_bordados{
+    #title_bordados {
         padding-top: 0;
     }
+    
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -37,11 +38,9 @@
     .single_catagory_area h2 {
         font-size: 50px;
     }
-    
-      .top_logo a img {
+    .top_logo a img {
         max-width: 200px;
     }
-    
     .top_logo.ml {
         margin-left: 0;
     }
@@ -52,14 +51,20 @@
     .single_product_desc .cart .orcamento_obs {
         width: 300px;
     }
-        #title_bordados{
+    .account_input {
+        width: 300px;
+    }
+    #title_bordados {
         padding-top: 0;
     }
-     #desktop{
-         display: none;
+    #desktop {
+        display: none;
     }
-    #mobile{
-       display: flex;
+    #mobile {
+        display: flex;
+    }
+      .borderight{
+        border-color:  white;
     }
 }
 
@@ -73,7 +78,6 @@
     .top_logo a img {
         max-width: 200px;
     }
-    
     .top_logo.ml {
         margin-left: 0;
     }
@@ -154,6 +158,11 @@
     .single_product_desc {
         margin-top: 100px;
     }
+    
+    #mt_none{
+        margin-top: 0;
+    }
+    
     .cart_area .update-checkout a,
     .cart_area .back-to-shop a {
         display: block;
@@ -171,38 +180,47 @@
         margin-top: 100px;
         padding: 20px;
     }
-      /*novo*/
+    /*novo*/
     .single_product_desc .cart .orcamento {
         width: 40%;
     }
+    
+    .account_input {
+        width: 100%;
+    }
+    
+    
     .single_product_desc .cart .orcamento_obs {
         width: 83%;
     }
-        #title_bordados{
+    #title_bordados {
         padding-top: 0;
     }
-     #desktop{
-         display: none;
+    #desktop {
+        display: none;
     }
-     #mobile{
-         padding: 5%;
-         display: flex;
+    #mobile {
+        padding: 5%;
+        display: flex;
     }
     
+      .borderight{
+         border-color:  white;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-      .top_logo a img {
+    .top_logo a img {
         max-width: 200px;
     }
-    
     .top_logo.ml {
         margin-left: 0;
     }
-    
     /*novo*/
-    
-    #title_bordados{
+    #title_bordados {
         padding-top: 0;
+    }
+      .borderight{
+        border-color:  white;
     }
 }
