@@ -40,7 +40,7 @@
 
                                                 <h5 class="price">00.00€</h5>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?</p>
-                                                <a href="product-details.html">Ver mais</a>
+                                                <a href="product-details.php">Ver mais</a>
                                             </div>
                                             <!-- Add to Cart Form -->
                                             <form class="cart" method="post">

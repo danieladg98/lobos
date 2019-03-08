@@ -37,8 +37,9 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                             <td class="cross-remove">
-                                                 <a href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>
+                                            <td class="cross-remove">
+                                                 <a href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+                                            </td>
                                             <td class="cart_product_img align-items-center">
                                                 <a href="#"><img src="img/product-img/1.jpg" alt="Product"></a>
                                             </td>
