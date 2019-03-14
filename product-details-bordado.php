@@ -113,23 +113,22 @@
 
                                 <div class="widget size mb-50">
                                     <h6 class="widget-title">Bordado</h6>
-                                    <div class="widget-desc">
+                                    <div class="widget-desc bordado_option">
                                         <select class="bordado_select">
                                             <option value="a">S/ Bordado</option>
     <option value="a">A - Frente, Lado Direito</option>
     <option value="b">B - Frente, Lado Esquerdo</option>
     <option value="c">C - Trás, Centro</option>
   </select>
-                                        <br><br>
-                                         <input type="file" name="pic" accept="image/*">
-                                        
+
+                                        <input type="file" name="pic" accept="image/*">
                                     </div>
                                 </div>
 
 
                                 <!-- Add to Cart Form -->
                                 <form class="cart clearfix mb-50 d-flex" method="post">
-                                    
+
                                     <div class="quantity">
                                         <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 1 ) effect.value--;return false;"><i class="fa fa-minus" aria-hidden="true"></i></span>
                                         <input type="number" class="qty-text" id="qty" step="1" min="1" max="12" name="quantity" value="1">

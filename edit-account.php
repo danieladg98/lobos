@@ -128,27 +128,6 @@
                                         </div>
 
                                         <div class="col-12 mb-3">
-                                            <label for="country">País <span>*</span></label>
-                                            <select class="custom-select d-block w-100" id="country">
-                                        <option value="usa">Portugal</option>
-                                        <option value="uk">Espanha</option>
-                                        <option value="ger">França</option>
-                                    </select>
-                                        </div>
-                                        <div class="col-12 mb-3">
-                                            <label for="street_address">Morada <span>*</span></label>
-                                            <input type="text" class="form-control mb-3" id="street_address" value="Alvaredo, Melgaço">
-                                            <input type="text" class="form-control" id="street_address2" value="Viana do Castelo">
-                                        </div>
-                                        <div class="col-12 mb-3">
-                                            <label for="postcode">Código Postal <span>*</span></label>
-                                            <input type="text" class="form-control" id="postcode" value="4960-010">
-                                        </div>
-                                        <div class="col-12 mb-3">
-                                            <label for="city">Cidade <span>*</span></label>
-                                            <input type="text" class="form-control" id="city" value="Viana do Castelo">
-                                        </div>
-                                        <div class="col-12 mb-3">
                                             <label for="phone_number">Telemóvel <span>*</span></label>
                                             <input type="number" class="form-control" id="phone_number" min="0" value="937646410">
                                         </div>

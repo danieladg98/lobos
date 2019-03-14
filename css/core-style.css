@@ -958,7 +958,7 @@ img {
 }
 
 .cart-submit:hover {
-    background-color: #ff084e;
+    background-color: #FFCC00;
     color: #fff;
 }
 
@@ -1772,7 +1772,7 @@ img {
 }
 
 .single_product_desc .cart .qty-plus {
-    top: auto;
+    top: 20px;
     bottom: 0;
 }
 
@@ -2043,7 +2043,7 @@ img {
 }
 
 .checkout_details_area form label span {
-    color: #ff084e;
+    color: #FFCC00;
 }
 
 .checkout_details_area form .form-control,
@@ -2150,6 +2150,7 @@ img {
     padding: 5px 15px;
     border: 1px solid #ddd;
     height: 40px;
+    width:150px;
 }
 
 .contactos_social_area > a {
@@ -2194,9 +2195,6 @@ img {
     font-size: 14px;
 }
 
-.cart-submit{
-    height: 50px;
-}
 
 .underl:hover{
     text-decoration: underline;
