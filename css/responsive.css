@@ -181,6 +181,10 @@
         padding: 20px;
     }
     /*novo*/
+    .termos_padding{
+      padding: 20px;  
+    }
+    
     .single_product_desc .cart .orcamento {
         width: 40%;
     }
@@ -217,6 +221,9 @@
         margin-left: 0;
     }
     /*novo*/
+    .termos_padding{
+      padding: 20px;  
+    }
     #title_bordados {
         padding-top: 0;
     }
