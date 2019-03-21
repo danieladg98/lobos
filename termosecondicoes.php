@@ -225,7 +225,7 @@
 
                                 <div class="">
                                     <h6><br>11. POLÍTICA DE PRIVACIDADE</h6>
-                                    <p>11.1. A ANA SOUSA reconhece a importância da proteção dos dados pessoais dos seus clientes e de todos aqueles que visitam o site www.lobos.com, e por isso desenvolveu um padrão comportamental de segurança que cumpre todos os requisitos do Regulamento Geral de Proteção de Dados. Para consultar a nossa Política de Privacidade, por favor clique aqui.</p>
+                                    <p>11.1. A ANA SOUSA reconhece a importância da proteção dos dados pessoais dos seus clientes e de todos aqueles que visitam o site www.lobos.com, e por isso desenvolveu um padrão comportamental de segurança que cumpre todos os requisitos do Regulamento Geral de Proteção de Dados. Para consultar a nossa Política de Privacidade, por favor clique <a href="politicaprivacidade.php">aqui</a>.</p>
 
                                     <p>11.2. Caso tenha alguma dúvida sobre como tratamos e protegemos os seus dados, por favor contacte-nos através do email geral@lobos.com.</p>
                                 </div>
